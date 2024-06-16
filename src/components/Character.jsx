@@ -1,5 +1,5 @@
 import { useCharacter } from '../hooks/useCharacter.js'
-
+import './Character.css'
 
 export function Character() {
     const randomCharacter = Math.floor(Math.random() * 826);
